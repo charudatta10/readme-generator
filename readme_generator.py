@@ -1,19 +1,18 @@
 import random
 
 data = {
-    "title": "improved-barnacle",
-    "description": """cleanup Python script.  
-The project cleans the download folder moving files to respective folders based on extensions. """,
-"features": ["hi","there","brother"],
+    "title": "readme-generator",
+    "description": """Readme generator python script.  
+The project generates readme file. """,
+"features": ["Generates badges","Generate markdown file"],
 "list_badges": ["javaScript","css3","html5","python","latex"],
-"steps":["Download","Install","Run"],
-"FAQ":{"question 1":"answer 1","question 2":"answer 2","question 3":"answer 3"},
+"steps":["Edit data section python file","python readme_generator.py"],
+"FAQ":{"Are there any depencdecy":"No","what are import":"random package"},
 }
 
 def ufunc_lst2str(inpt_list):
     inpt_list = ["- " + item + "\n" for item in inpt_list]
     opt_str = "".join(inpt_list)
-    print(opt_str)
     return opt_str
 
 def ufunc_dict2str(inpt_dict):
@@ -21,7 +20,6 @@ def ufunc_dict2str(inpt_dict):
     for (key, value) in inpt_dict.items():
         t_str = f"""> {key}?    \n   {value}.    \n   \n"""
         opt_str += t_str
-    print(opt_str)
     return opt_str
 
 def ufunc_badgegen(list_badges):
@@ -120,6 +118,6 @@ The project is licensed [GPL-3.0](./LICENSE).
 
 """
 
-with open("test_file.md", "w", encoding="utf-8") as f:
+with open("README.md", "w", encoding="utf-8") as f:
     f.write(doc)
 # print(doc)

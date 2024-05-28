@@ -1,19 +1,19 @@
  
 <!-- PROJECT Banner ![Readme](./Designer%20(3).png)-->
-![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=improved-barnacle&width=1020&height=460)
+![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=readme-generator&width=1020&height=460)
 <!-- PROJECT TITLE --> <!-- <a name="readme-top"></a> -->
-# improved-barnacle <!-- PROJECT LOGO ![Readme](./Designer%20(3).png) -->
+# readme-generator <!-- PROJECT LOGO ![Readme](./Designer%20(3).png) -->
 
 <!-- PROJECT SHIELDS -->
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/improved-barnacle?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/improved-barnacle)
-![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/improved-barnacle)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/improved-barnacle)
-![GitHub](https://img.shields.io/github/license/charudatta10/improved-barnacle)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/readme-generator?include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/readme-generator)
+![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/readme-generator)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/readme-generator)
+![GitHub](https://img.shields.io/github/license/charudatta10/readme-generator)
 
 <!-- Project Description -->
-cleanup Python script.  
-The project cleans the download folder moving files to respective folders based on extensions.   
+Readme generator python script.  
+The project generates readme file.   
 
 <!-- SHARING ON SOCIAL MEDIA -->
 
@@ -28,13 +28,12 @@ There's a live preview on this [website](https://charudatta10.github.io/linktree
 
 ## Features 🌟
 
-- hi
-- there
-- brother
+- Generates badges
+- Generate markdown file
 
 
 ## Built With 🔧
-![](https://img.shields.io/badge/Javascript-D4BE7F?style=for-the-badge&logo=javaScript&logoColor=000) ![](https://img.shields.io/badge/Css3-C00C89?style=for-the-badge&logo=css3&logoColor=000) ![](https://img.shields.io/badge/Html5-A6E8EB?style=for-the-badge&logo=html5&logoColor=000) ![](https://img.shields.io/badge/Python-9EFFD5?style=for-the-badge&logo=python&logoColor=000) ![](https://img.shields.io/badge/Latex-A3BC6A?style=for-the-badge&logo=latex&logoColor=000) 
+![](https://img.shields.io/badge/Javascript-B57AB0?style=for-the-badge&logo=javaScript&logoColor=000) ![](https://img.shields.io/badge/Css3-8CBD86?style=for-the-badge&logo=css3&logoColor=000) ![](https://img.shields.io/badge/Html5-D6ADCC?style=for-the-badge&logo=html5&logoColor=000) ![](https://img.shields.io/badge/Python-80531A?style=for-the-badge&logo=python&logoColor=000) ![](https://img.shields.io/badge/Latex-24E6AA?style=for-the-badge&logo=latex&logoColor=fff) 
 
 <!-- GETTING STARTED -->
 
@@ -48,28 +47,24 @@ There's a live preview on this [website](https://charudatta10.github.io/linktree
 2. To install from source:
 
 ```PowerShell
-gh repo clone charudatta10/improved-barnacle
+gh repo clone charudatta10/readme-generator
 ```
  
 ### How to use
 
-- Download
-- Install
-- Run
+- Edit data section python file
+- python readme_generator.py
 
 
 ## FAQ
 
-✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/improved-barnacle/issues)✨
+✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/readme-generator/issues)✨
 
-> question 1?    
-   answer 1.    
+> Are there any depencdecy?    
+   No.    
    
-> question 2?    
-   answer 2.    
-   
-> question 3?    
-   answer 3.    
+> what are import?    
+   random package.    
    
 
 
