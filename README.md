@@ -2,7 +2,7 @@
 <!-- PROJECT Banner ![Readme](./Designer%20(3).png)-->
 ![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=readme-generator&width=1020&height=460)
 <!-- PROJECT TITLE --> <!-- <a name="readme-top"></a> -->
-# readme-generator ![Readme](logo5.png) <!-- PROJECT LOGO ![Readme](./Designer%20(3).png) -->
+# readme-generator ![Readme](OIG6-removebg-preview.png) <!-- PROJECT LOGO ![Readme](./Designer%20(3).png) -->
 
 <!-- PROJECT SHIELDS -->
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/readme-generator?include_prereleases)
