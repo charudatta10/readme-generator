@@ -30,10 +30,10 @@ The project generates readme file.
 
 - Generates badges
 - Generate markdown file
-
+ 
 
 ## Built With 🔧
-![](https://img.shields.io/badge/Javascript-0D1629?style=for-the-badge&logo=javaScript&logoColor=fff) ![](https://img.shields.io/badge/Css3-24AE53?style=for-the-badge&logo=css3&logoColor=fff) ![](https://img.shields.io/badge/Html5-BB9DBD?style=for-the-badge&logo=html5&logoColor=000) ![](https://img.shields.io/badge/Python-448EEA?style=for-the-badge&logo=python&logoColor=fff) ![](https://img.shields.io/badge/Latex-D8C458?style=for-the-badge&logo=latex&logoColor=000) 
+![](https://img.shields.io/badge/Javascript-0FA370?style=for-the-badge&logo=javaScript&logoColor=fff) ![](https://img.shields.io/badge/Css3-149D1B?style=for-the-badge&logo=css3&logoColor=fff) ![](https://img.shields.io/badge/Html5-08EE28?style=for-the-badge&logo=html5&logoColor=fff) ![](https://img.shields.io/badge/Python-ADA66C?style=for-the-badge&logo=python&logoColor=000) ![](https://img.shields.io/badge/Latex-F9538F?style=for-the-badge&logo=latex&logoColor=000) 
 
 <!-- GETTING STARTED -->
 
@@ -98,4 +98,3 @@ The contribution to this project should adhere to GPL-3.0 and respect the copyri
 
 Copyright :copyright: 2024 ![ck](favicon05.svg):tm: @ charudatta10.   
 The project is licensed [GPL-3.0](./LICENSE).
-

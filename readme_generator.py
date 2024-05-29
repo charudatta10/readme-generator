@@ -1,6 +1,6 @@
 import random
 import json
-
+from fire import Fire
 
 class readme_gen():
 
@@ -50,10 +50,16 @@ class readme_gen():
     def gen_file(self):
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(self.doc)
+
+    def run(self, file="config.json"):
+        self.add_config(file)
+        self.gen_str()
+        self.gen_file()
 # print(doc)
 
 if __name__ == "__main__":
     file = readme_gen()
-    file.add_config("config.json")
-    file.gen_str()
-    #file.gen_file("README.md")
+    Fire(file)
+    #file.add_config("config.json")
+    #file.gen_str()
+    #file.gen_file()
