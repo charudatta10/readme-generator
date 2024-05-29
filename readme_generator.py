@@ -8,6 +8,7 @@ The project generates readme file. """,
 "list_badges": ["javaScript","css3","html5","python","latex"],
 "steps":["Edit data section python file","python readme_generator.py"],
 "FAQ":{"Are there any depencdecy":"No","what are import":"random package"},
+"dependencies":["random"],
 }
 
 def ufunc_lst2str(inpt_list):
@@ -72,7 +73,11 @@ There's a live preview on this [website](https://charudatta10.github.io/linktree
 
 ## Getting Started 🌱
 
-### Installation
+### Dependencies ⧉
+
+{ ufunc_lst2str(data['dependencies'])}
+
+### Installation ■■■■■■■■■■
 
 1. To install from binaries:  
    Download the binary file from the release and double-click to use it.
@@ -83,11 +88,11 @@ There's a live preview on this [website](https://charudatta10.github.io/linktree
 gh repo clone charudatta10/{data['title']}
 ```
  
-### How to use
+### How to use 🗎
 
 { ufunc_lst2str(data['steps'])}
 
-## FAQ
+## FAQ ?
 
 ✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/{data['title']}/issues)✨
 
@@ -95,11 +100,11 @@ gh repo clone charudatta10/{data['title']}
 
 <!-- CONTRIBUTING -->
 
-## Authors 
+## Authors 👱
 
 The author of this project is @charudatta10.  
 
-## Contributors 
+## Contributors 👪
 
 | ![](profile-picture.png) |
 | :---: | 
@@ -111,7 +116,7 @@ The author of this project is @charudatta10.
 
 The contribution to this project should adhere to GPL-3.0 and respect the copyright claims of charudatta10.
 
-## License
+## License 📜
 
 Copyright :copyright: 2024 ![ck](favicon05.svg):tm: @ charudatta10.   
 The project is licensed [GPL-3.0](./LICENSE).

@@ -33,13 +33,18 @@ There's a live preview on this [website](https://charudatta10.github.io/linktree
 
 
 ## Built With 🔧
-![](https://img.shields.io/badge/Javascript-B57AB0?style=for-the-badge&logo=javaScript&logoColor=000) ![](https://img.shields.io/badge/Css3-8CBD86?style=for-the-badge&logo=css3&logoColor=000) ![](https://img.shields.io/badge/Html5-D6ADCC?style=for-the-badge&logo=html5&logoColor=000) ![](https://img.shields.io/badge/Python-80531A?style=for-the-badge&logo=python&logoColor=000) ![](https://img.shields.io/badge/Latex-24E6AA?style=for-the-badge&logo=latex&logoColor=fff) 
+![](https://img.shields.io/badge/Javascript-21B949?style=for-the-badge&logo=javaScript&logoColor=fff) ![](https://img.shields.io/badge/Css3-35CFBE?style=for-the-badge&logo=css3&logoColor=fff) ![](https://img.shields.io/badge/Html5-F09883?style=for-the-badge&logo=html5&logoColor=000) ![](https://img.shields.io/badge/Python-11B9F8?style=for-the-badge&logo=python&logoColor=fff) ![](https://img.shields.io/badge/Latex-DDDD7F?style=for-the-badge&logo=latex&logoColor=000) 
 
 <!-- GETTING STARTED -->
 
 ## Getting Started 🌱
 
-### Installation
+### Dependencies ⧉
+
+- random
+
+
+### Installation ■■■■■■■■■■
 
 1. To install from binaries:  
    Download the binary file from the release and double-click to use it.
@@ -50,13 +55,13 @@ There's a live preview on this [website](https://charudatta10.github.io/linktree
 gh repo clone charudatta10/readme-generator
 ```
  
-### How to use
+### How to use 🗎
 
 - Edit data section python file
 - python readme_generator.py
 
 
-## FAQ
+## FAQ ?
 
 ✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/readme-generator/issues)✨
 
@@ -70,11 +75,11 @@ gh repo clone charudatta10/readme-generator
 
 <!-- CONTRIBUTING -->
 
-## Authors 
+## Authors 👱
 
 The author of this project is @charudatta10.  
 
-## Contributors 
+## Contributors 👪
 
 | ![](profile-picture.png) |
 | :---: | 
@@ -86,7 +91,7 @@ The author of this project is @charudatta10.
 
 The contribution to this project should adhere to GPL-3.0 and respect the copyright claims of charudatta10.
 
-## License
+## License 📜
 
 Copyright :copyright: 2024 ![ck](favicon05.svg):tm: @ charudatta10.   
 The project is licensed [GPL-3.0](./LICENSE).
