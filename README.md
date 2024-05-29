@@ -33,7 +33,7 @@ The project generates readme file.
  
 
 ## Built With 🔧
-![](https://img.shields.io/badge/Javascript-0FA370?style=for-the-badge&logo=javaScript&logoColor=fff) ![](https://img.shields.io/badge/Css3-149D1B?style=for-the-badge&logo=css3&logoColor=fff) ![](https://img.shields.io/badge/Html5-08EE28?style=for-the-badge&logo=html5&logoColor=fff) ![](https://img.shields.io/badge/Python-ADA66C?style=for-the-badge&logo=python&logoColor=000) ![](https://img.shields.io/badge/Latex-F9538F?style=for-the-badge&logo=latex&logoColor=000) 
+![](https://img.shields.io/badge/Javascript-62BA97?style=for-the-badge&logo=javaScript&logoColor=fff) ![](https://img.shields.io/badge/Css3-0110FD?style=for-the-badge&logo=css3&logoColor=fff) ![](https://img.shields.io/badge/Html5-EFF0FF?style=for-the-badge&logo=html5&logoColor=000) ![](https://img.shields.io/badge/Python-830C60?style=for-the-badge&logo=python&logoColor=000) ![](https://img.shields.io/badge/Latex-17336E?style=for-the-badge&logo=latex&logoColor=fff) 
 
 <!-- GETTING STARTED -->
 
