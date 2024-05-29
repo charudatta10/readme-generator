@@ -2,7 +2,7 @@
 <!-- PROJECT Banner ![Readme](./Designer%20(3).png)-->
 ![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=readme-generator&width=1020&height=460)
 <!-- PROJECT TITLE --> <!-- <a name="readme-top"></a> -->
-# readme-generator ![Readme](OIG8-removebg-preview.png) <!-- PROJECT LOGO ![Readme](./Designer%20(3).png) -->
+# readme-generator <!-- PROJECT LOGO ![Readme](./Designer%20(3).png) -->
 
 <!-- PROJECT SHIELDS -->
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/readme-generator?include_prereleases)
@@ -21,7 +21,7 @@ The project generates readme file.
 
 ## Project Preview 📖 <!-- Usage screenshots -->
 
-There's a live preview on this [website](https://charudatta10.github.io/linktree/)!
+![Screenshot](Screenshot.png)
 
 <!-- <p align="right"><a href="#readme-top">Jump to Top<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand gestures/Index Pointing Up.png" alt="Pointing Up" width="25" height="25" /></a></p>
 -->
@@ -33,7 +33,7 @@ There's a live preview on this [website](https://charudatta10.github.io/linktree
 
 
 ## Built With 🔧
-![](https://img.shields.io/badge/Javascript-21B949?style=for-the-badge&logo=javaScript&logoColor=fff) ![](https://img.shields.io/badge/Css3-35CFBE?style=for-the-badge&logo=css3&logoColor=fff) ![](https://img.shields.io/badge/Html5-F09883?style=for-the-badge&logo=html5&logoColor=000) ![](https://img.shields.io/badge/Python-11B9F8?style=for-the-badge&logo=python&logoColor=fff) ![](https://img.shields.io/badge/Latex-DDDD7F?style=for-the-badge&logo=latex&logoColor=000) 
+![](https://img.shields.io/badge/Javascript-3E955C?style=for-the-badge&logo=javaScript&logoColor=fff) ![](https://img.shields.io/badge/Css3-735C38?style=for-the-badge&logo=css3&logoColor=fff) ![](https://img.shields.io/badge/Html5-3FC428?style=for-the-badge&logo=html5&logoColor=fff) ![](https://img.shields.io/badge/Python-F80674?style=for-the-badge&logo=python&logoColor=000) ![](https://img.shields.io/badge/Latex-E0FCAF?style=for-the-badge&logo=latex&logoColor=000) 
 
 <!-- GETTING STARTED -->
 
@@ -59,6 +59,9 @@ gh repo clone charudatta10/readme-generator
 
 - Edit data section python file
 - python readme_generator.py
+
+
+![Screenshot](carbon.png)
 
 
 ## FAQ ?

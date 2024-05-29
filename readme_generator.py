@@ -57,7 +57,7 @@ doc = f"""
 
 ## Project Preview 📖 <!-- Usage screenshots -->
 
-There's a live preview on this [website](https://charudatta10.github.io/linktree/)!
+![Screenshot](Screenshot.png)
 
 <!-- <p align="right"><a href="#readme-top">Jump to Top<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand gestures/Index Pointing Up.png" alt="Pointing Up" width="25" height="25" /></a></p>
 -->
@@ -91,6 +91,9 @@ gh repo clone charudatta10/{data['title']}
 ### How to use 🗎
 
 { ufunc_lst2str(data['steps'])}
+
+![Screenshot](carbon.png)
+
 
 ## FAQ ?
 
