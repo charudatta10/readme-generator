@@ -1,15 +1,8 @@
 import random
+import json
 
-data = {
-    "title": "readme-generator",
-    "description": """Readme generator python script.  
-The project generates readme file. """,
-"features": ["Generates badges","Generate markdown file"],
-"list_badges": ["javaScript","css3","html5","python","latex"],
-"steps":["Edit data section python file","python readme_generator.py"],
-"FAQ":{"Are there any depencdecy":"No","what are import":"random package"},
-"dependencies":["random"],
-}
+with open("config.json", "r") as f:
+    data = json.load(f)
 
 def ufunc_lst2str(inpt_list):
     inpt_list = ["- " + item + "\n" for item in inpt_list]
