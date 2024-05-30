@@ -22,5 +22,13 @@
     },
     "dependencies": [
         "random"
-    ]
+    ],
+    "user": "charudatta10",
+    "contact_link": "https://charudatta10.github.io/linktree/",
+    "license": "GPL-3.0",
+    "img_slogo": "favicon05.svg",
+    "img_profile": "profile-picture.png",
+    "img_screenshot": "Screenshot.png",
+    "img_preview": "OIG8-removebg-preview.png",
+    "img_logo": "OIG8-removebg-preview.png"
 }
