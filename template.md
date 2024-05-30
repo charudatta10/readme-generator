@@ -83,4 +83,4 @@ The contribution to this project should adhere to {license} and respect the copy
 Copyright :copyright: 2024 ![logo]({img_slogo}):tm: @ {user}.   
 The project is licensed [{license}](./LICENSE).
 
-[Contact Me]{contact_link}
+[Contact Me]({contact_link})
