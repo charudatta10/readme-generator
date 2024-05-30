@@ -50,6 +50,14 @@ class readme_gen:
             dependencies=self.ufunc_lst2str(self.data["dependencies"]),
             steps=self.ufunc_lst2str(self.data["steps"]),
             FAQ=self.ufunc_dict2str(self.data["FAQ"]),
+            user=self.data["user"],
+            contact_link=self.data["contact_link"],
+            license=self.data["license"],
+            img_slogo=self.data["img_slogo"],
+            img_profile=self.data["img_profile"],
+            img_screenshot=self.data["img_screenshot"],
+            img_preview=self.data["img_preview"],
+            img_logo=self.data["img_logo"],
         )
 
     def gen_file(self):
