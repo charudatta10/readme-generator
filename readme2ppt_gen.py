@@ -145,12 +145,7 @@ marp-pre {
     # Load the file into file_content
     file_content = [line for line in open(file_name,'r',encoding="utf-8")]
     # Overwrite the file
-    print(Path(file_name).stem + "_ppt.md")
-    print(Path(file_name).stem)
     file_name = Path(Path(file_name).stem + "_ppt.md")
-    file_name = Path(file_name)
-    file_name.touch(exist_ok=True)
-    file_name.exists()
     with open(file_name, 'w+',encoding="utf-8") as writer:
         writer.write(ppt_style)
         for line in file_content:
@@ -160,5 +155,5 @@ marp-pre {
             # Re-write the file at each iteration
             writer.write(line)
         
-
-readme2ppt("README.md")
+if __name__ == "__main__":
+    readme2ppt("README.md")

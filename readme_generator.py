@@ -69,12 +69,6 @@ class readme_gen:
         )
 
     def gen_file(self, file_name="README.md"):
-        print(file_name)
-        file_name = Path(file_name)
-        print(file_name)
-        file_name.touch(exist_ok=True)
-        print(file_name)
-        print(file_name.exists())
         with open(file_name, "w+", encoding="utf-8") as f:
             f.write(self.doc)
 

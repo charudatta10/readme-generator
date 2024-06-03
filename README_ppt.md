@@ -176,7 +176,7 @@ k
 ---
 
 ## Built With 🔧
-![](https://img.shields.io/badge/K-72BFFC?style=for-the-badge&logo=k&logoColor=fff) 
+![](https://img.shields.io/badge/K-C1B90C?style=for-the-badge&logo=k&logoColor=000) 
 
 <!-- GETTING STARTED -->
 

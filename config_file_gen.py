@@ -49,12 +49,6 @@ class config_gen():
         self.data["img_logo"]=input("Enter project logo path -> ")
 
     def gen_file(self, file_name='config.json'):
-        print(file_name)
-        file_name = Path(file_name)
-        print(file_name)
-        file_name.touch(exist_ok=True)
-        print(file_name)
-        print(file_name.exists())
         with open(file_name,'w+') as f:
             json.dump(self.data,f,indent=4)
 
