@@ -1,6 +1,6 @@
 import random
 import json
-from fire import Fire
+
 from pathlib import Path
 import os
 
@@ -9,8 +9,16 @@ local_file_path = Path(f"C:/Users/{user_name}/Documents/GitHub/readme-generator/
 
 class readme_gen:
 
-    def add_config(self):
-        with open(self.config_path / "config.json", "r") as f:
+    def __init__(self,
+                 template_path=local_file_path,
+                 config_path=local_file_path,
+                 readme_path=local_file_path,) -> None:
+        self.template_path = Path(template_path)
+        self.config_path = Path(config_path)
+        self.readme_path = Path(readme_path)
+
+    def add_config(self, file_name="config.json"):
+        with open(self.config_path / file_name, "r") as f:
             self.data = json.load(f)
 
     def ufunc_lst2str(self, inpt_list):
@@ -60,24 +68,20 @@ class readme_gen:
             img_logo=self.data["img_logo"],
         )
 
-    def gen_file(self):
-        with open(self.readme_path / "README.md", "w", encoding="utf-8") as f:
+    def gen_file(self, file_name="README.md"):
+        print(file_name)
+        file_name = Path(file_name)
+        print(file_name)
+        file_name.touch(exist_ok=True)
+        print(file_name)
+        print(file_name.exists())
+        with open(file_name, "w+", encoding="utf-8") as f:
             f.write(self.doc)
-
-    def run(
-        self,
-        template_path=local_file_path,
-        config_path=local_file_path,
-        readme_path=local_file_path,
-    ):
-        self.template_path = Path(template_path)
-        self.config_path = Path(config_path)
-        self.readme_path = Path(readme_path)
-        self.add_config()
-        self.gen_str()
-        self.gen_file()
 
 
 if __name__ == "__main__":
     file = readme_gen()
-    Fire(file)
+    file.add_config()
+    file.gen_str()
+    file.gen_file()
+

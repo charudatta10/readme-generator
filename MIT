@@ -1,18 +1,22 @@
 {
-    "title": "j",
+    "title": "rty",
     "description": "k",
     "features": [
         "k"
     ],
     "list_badges": [
-        "k"
+        "python"
     ],
     "steps": [],
-    "FAQ": {},
-    "dependencies": [],
+    "FAQ": {
+        "o": "o"
+    },
+    "dependencies": [
+        "po"
+    ],
     "user": "charudatta10",
     "contact_link": "https://charudatta10.github.io/linktree/",
-    "license": "",
+    "license": "po",
     "img_slogo": "favicon05.svg",
     "img_profile": "profile-picture.png",
     "img_screenshot": "",

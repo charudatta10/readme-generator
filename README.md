@@ -1,19 +1,18 @@
  
-<!-- PROJECT Banner ![Readme](./Designer%20(3).png)-->
-![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=readme-generator&width=1020&height=460)
-<!-- PROJECT TITLE --> <!-- <a name="readme-top"></a> -->
-# readme-generator <!-- PROJECT LOGO ![Readme](./Designer%20(3).png) -->
+<!-- PROJECT Banner -->
+![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=j&width=1020&height=460)
+<!-- PROJECT TITLE - PROJECT LOGO -->
+# j ![Logo]()
 
 <!-- PROJECT SHIELDS -->
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/readme-generator?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/readme-generator)
-![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/readme-generator)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/readme-generator)
-![GitHub](https://img.shields.io/github/license/charudatta10/readme-generator)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/j?include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/j)
+![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/j)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/j)
+![GitHub](https://img.shields.io/github/license/charudatta10/j)
 
 <!-- Project Description -->
-Readme generator python script.  
-The project generates readme file.   
+k  
 
 <!-- SHARING ON SOCIAL MEDIA -->
 
@@ -21,19 +20,15 @@ The project generates readme file.
 
 ## Project Preview 📖 <!-- Usage screenshots -->
 
-![Screenshot](Screenshot.png)
-
-<!-- <p align="right"><a href="#readme-top">Jump to Top<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand gestures/Index Pointing Up.png" alt="Pointing Up" width="25" height="25" /></a></p>
--->
+![Project Preview]()
 
 ## Features 🌟
 
-- Generates badges
-- Generate markdown file
+- k
  
 
 ## Built With 🔧
-![](https://img.shields.io/badge/Javascript-62BA97?style=for-the-badge&logo=javaScript&logoColor=fff) ![](https://img.shields.io/badge/Css3-0110FD?style=for-the-badge&logo=css3&logoColor=fff) ![](https://img.shields.io/badge/Html5-EFF0FF?style=for-the-badge&logo=html5&logoColor=000) ![](https://img.shields.io/badge/Python-830C60?style=for-the-badge&logo=python&logoColor=000) ![](https://img.shields.io/badge/Latex-17336E?style=for-the-badge&logo=latex&logoColor=fff) 
+![](https://img.shields.io/badge/K-CE9FD4?style=for-the-badge&logo=k&logoColor=000) 
 
 <!-- GETTING STARTED -->
 
@@ -41,7 +36,6 @@ The project generates readme file.
 
 ### Dependencies ⧉
 
-- random
 
 
 ### Installation ■■■■■■■■■■
@@ -52,49 +46,42 @@ The project generates readme file.
 2. To install from source:
 
 ```PowerShell
-gh repo clone charudatta10/readme-generator
+gh repo clone charudatta10/j
 ```
  
-### How to use 🗎
-
-- Edit data section python file
-- python readme_generator.py
+## Documentation 🗎
 
 
-![Screenshot](carbon.png)
 
+![Screenshot]()
 
 ## FAQ ?
 
-✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/readme-generator/issues)✨
+✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/j/issues)✨
 
-> Are there any depencdecy?    
-   No.    
-   
-> what are import?    
-   random package.    
-   
 
 
 <!-- CONTRIBUTING -->
 
 ## Authors 👱
 
-The author of this project is @charudatta10.  
+The author of this project is charudatta10.  
 
 ## Contributors 👪
 
 | ![](profile-picture.png) |
 | :---: | 
-| Charudatta Korde |
+| charudatta10 |
 | [💻](#code-charudatta10)  [📖](#doc-charudatta10)  [🎨](#design-charudatta10)  [💡](#example-charudatta10)  [🤔](#ideas-charudatta10)|
 
 
 ### Contribution guidelines
 
-The contribution to this project should adhere to GPL-3.0 and respect the copyright claims of charudatta10.
+The contribution to this project should adhere to  and respect the copyright claims of charudatta10.
 
 ## License 📜
 
-Copyright :copyright: 2024 ![ck](favicon05.svg):tm: @ charudatta10.   
-The project is licensed [GPL-3.0](./LICENSE).
+Copyright :copyright: 2024 ![logo](favicon05.svg):tm: @ charudatta10.   
+The project is licensed [](./LICENSE).
+
+[Contact Me](https://charudatta10.github.io/linktree/)
