@@ -1,21 +1,29 @@
 {
-    "title": "j",
-    "description": "k",
+    "title": "readme-generator",
+    "description": "Generate readme for github repos",
     "features": [
-        "k"
+        "Auto generate readmes"
     ],
     "list_badges": [
-        "k"
+        "Python",
+        "Markdown"
     ],
-    "steps": [],
-    "FAQ": {},
-    "dependencies": [],
+    "steps": [
+        "python main.py"
+    ],
+    "FAQ": {
+        "What to do if data for some feild is not there?": "leave blank",
+        "How to end mutiline inputs?": "enter blank lines end multiline input"
+    },
+    "dependencies": [
+        "None"
+    ],
     "user": "charudatta10",
     "contact_link": "https://charudatta10.github.io/linktree/",
-    "license": "",
+    "license": "AGPL-3.0",
     "img_slogo": "favicon05.svg",
     "img_profile": "profile-picture.png",
-    "img_screenshot": "",
-    "img_preview": "",
-    "img_logo": ""
+    "img_screenshot": "Screenshot.png",
+    "img_preview": "carbon.png",
+    "img_logo": "profile-picture.png"
 }
