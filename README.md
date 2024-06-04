@@ -92,4 +92,4 @@ The contribution to this project should adhere to AGPL-3.0 and respect the copyr
 Copyright :copyright: 2024 ![logo](favicon05.svg):tm: @ charudatta10.   
 The project is licensed [AGPL-3.0](./LICENSE).
 
-[Contact Me](https://charudatta10.github.io/linktree/)
+[![Contact Me](https://img.shields.io/badge/Contact_Me-5D68B5?style=for-the-badge&logo=Contact&logoColor=fff)](https://charudatta10.github.io/linktree/)
