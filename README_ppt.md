@@ -140,21 +140,21 @@ marp-pre {
 </style>
  
 <!-- PROJECT Banner -->
-![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=legendary-dollop&width=1020&height=460)
+![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=readme-generator&width=1020&height=460)
 <!-- PROJECT TITLE - PROJECT LOGO -->
 ---
 
-# legendary-dollop ![Logo]()
+# readme-generator ![Logo](OIG8-removebg-preview.png)
 
 <!-- PROJECT SHIELDS -->
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/legendary-dollop?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/legendary-dollop)
-![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/legendary-dollop)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/legendary-dollop)
-![GitHub](https://img.shields.io/github/license/charudatta10/legendary-dollop)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/readme-generator?include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/readme-generator)
+![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/readme-generator)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/readme-generator)
+![GitHub](https://img.shields.io/github/license/charudatta10/readme-generator)
 
 <!-- Project Description -->
-Generate SVGs  
+Generate readme for github repos  
 
 <!-- SHARING ON SOCIAL MEDIA -->
 
@@ -164,20 +164,19 @@ Generate SVGs
 
 ## Project Preview 📖 <!-- Usage screenshots -->
 
-![Project Preview]()
+![Project Preview](carbon.png)
 
 ---
 
 ## Features 🌟
 
-- create banners
-- create badges
+- Auto generate readmes
  
 
 ---
 
 ## Built With 🔧
-![](https://img.shields.io/badge/Python-6A9AFE?style=for-the-badge&logo=python&logoColor=fff) ![](https://img.shields.io/badge/Html-206D84?style=for-the-badge&logo=HTML&logoColor=fff) ![](https://img.shields.io/badge/Css-046B25?style=for-the-badge&logo=CSS&logoColor=fff) 
+![](https://img.shields.io/badge/Python-59DE79?style=for-the-badge&logo=Python&logoColor=fff) ![](https://img.shields.io/badge/Markdown-5D68B5?style=for-the-badge&logo=Markdown&logoColor=fff) 
 
 <!-- GETTING STARTED -->
 
@@ -189,8 +188,7 @@ Generate SVGs
 
 ### Dependencies ⧉
 
-- flask
-- waitress
+- None
 
 
 ---
@@ -203,26 +201,29 @@ Generate SVGs
 2. To install from source:
 
 ```PowerShell
-gh repo clone charudatta10/legendary-dollop
+gh repo clone charudatta10/readme-generator
 ```
  
 ---
 
 ## Documentation 🗎
 
-- python api/app.py
+- python main.py
 
 
-![Screenshot]()
+![Screenshot](Screenshot.png)
 
 ---
 
 ## FAQ ?
 
-✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/legendary-dollop/issues)✨
+✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/readme-generator/issues)✨
 
-> is app self hosted??    
-   Yes.    
+> What to do if data for some feild is not there??    
+   leave blank.    
+   
+> How to end mutiline inputs??    
+   enter blank lines end multiline input.    
    
 
 
@@ -248,13 +249,13 @@ The author of this project is charudatta10.
 
 ### Contribution guidelines
 
-The contribution to this project should adhere to GPL-3.0 and respect the copyright claims of charudatta10.
+The contribution to this project should adhere to AGPL-3.0 and respect the copyright claims of charudatta10.
 
 ---
 
 ## License 📜
 
 Copyright :copyright: 2024 ![logo](favicon05.svg):tm: @ charudatta10.   
-The project is licensed [GPL-3.0](./LICENSE).
+The project is licensed [AGPL-3.0](./LICENSE).
 
-[Contact Me](https://charudatta10.github.io/linktree/)
+[![Contact Me](https://img.shields.io/badge/Contact_Me-5D68B5?style=for-the-badge&logo=Contact&logoColor=fff)](https://charudatta10.github.io/linktree/)
