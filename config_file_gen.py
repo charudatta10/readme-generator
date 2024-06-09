@@ -1,7 +1,4 @@
 import json
-from datetime import datetime
-from pathlib import Path
-import os
 import random
 
 class config_gen():
@@ -56,11 +53,8 @@ class config_gen():
         return tstr_badgen
     
     def get_data(self):
-        temp = input("Is project hosted on GitHub? y/n : ")
-        if (temp == "n"):
-            self.data["title"]=input("Enter title of project -> ")
-        else:
-            self.data["title"]=input("Enter Github Project Link -> ").split("/")[-1]
+        
+        self.data["title"]=input("Enter title of project -> ")
         self.data["description"]=input("Enter project description-> ")
         self.data["features"]= self._lst2str(self._getlist("Enter project features -> "))    
         self.data["list_badges"]= self._badgegen(self._getlist("Enter softwares used in the project -> "))
