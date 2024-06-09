@@ -176,7 +176,7 @@ Generate readme for github repos
 ---
 
 ## Built With 🔧
-![](https://img.shields.io/badge/Python-59DE79?style=for-the-badge&logo=Python&logoColor=fff) ![](https://img.shields.io/badge/Markdown-5D68B5?style=for-the-badge&logo=Markdown&logoColor=fff) 
+![](https://img.shields.io/badge/Python-DB5098?style=for-the-badge&logo=Python&logoColor=000) ![](https://img.shields.io/badge/Markdown-57E679?style=for-the-badge&logo=Markdown&logoColor=fff) 
 
 <!-- GETTING STARTED -->
 

@@ -1,6 +1,7 @@
 import json
 from datetime import datetime
 from pathlib import Path
+import os
 
 class config_gen():
 
@@ -49,7 +50,7 @@ class config_gen():
         self.data["img_logo"]=input("Enter project logo path -> ")
 
     def gen_file(self, file_name='config.json'):
-        with open(file_name,'w+') as f:
+        with open(file_name,'w') as f:
             json.dump(self.data,f,indent=4)
 
 if __name__ == "__main__":
