@@ -9,16 +9,14 @@ local_file_path = Path(f"C:/Users/{user_name}/Documents/GitHub/readme-generator/
 
 class readme_gen:
 
-    def __init__(self,
-                 template_path=local_file_path,
-                 config_path=local_file_path,
-                 readme_path=local_file_path,) -> None:
+    def __init__(self, template_path=local_file_path) -> None:
         self.template_path = Path(template_path)
-        self.config_path = Path(config_path)
-        self.readme_path = Path(readme_path)
 
-    def add_config(self, file_name="config.json"):
-        with open(self.config_path / file_name, "r") as f:
+        
+        
+
+    def add_config(self, config_path=local_file_path):
+        with open(config_path, "r") as f:
             self.data = json.load(f)
 
     def ufunc_lst2str(self, inpt_list):
@@ -68,8 +66,8 @@ class readme_gen:
             img_logo=self.data["img_logo"],
         )
 
-    def gen_file(self, file_name="README.md"):
-        with open(file_name, "w+", encoding="utf-8") as f:
+    def gen_file(self, readme_path=local_file_path):
+        with open(readme_path, "w+", encoding="utf-8") as f:
             f.write(self.doc)
 
 

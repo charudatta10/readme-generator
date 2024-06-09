@@ -17,7 +17,7 @@ class readme_main():
         config.get_data()
         config.gen_file(self.config_path)
         readme = readme_gen()
-        readme.add_config()
+        readme.add_config(self.config_path)
         readme.gen_str()
         readme.gen_file(self.readme_path)
         readme2ppt(self.readme_path)
