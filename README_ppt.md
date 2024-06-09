@@ -140,21 +140,21 @@ marp-pre {
 </style>
  
 <!-- PROJECT Banner -->
-![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=readme-generator&width=1020&height=460)
+![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=crypto functions list&width=1020&height=460)
 <!-- PROJECT TITLE - PROJECT LOGO -->
 ---
 
-# readme-generator ![Logo](OIG8-removebg-preview.png)
+# crypto functions list ![Logo]()
 
 <!-- PROJECT SHIELDS -->
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/readme-generator?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/readme-generator)
-![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/readme-generator)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/readme-generator)
-![GitHub](https://img.shields.io/github/license/charudatta10/readme-generator)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/crypto functions list?include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/crypto functions list)
+![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/crypto functions list)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/crypto functions list)
+![GitHub](https://img.shields.io/github/license/charudatta10/crypto functions list)
 
 <!-- Project Description -->
-Generate readme for github repos  
+blockchain  
 
 <!-- SHARING ON SOCIAL MEDIA -->
 
@@ -164,21 +164,22 @@ Generate readme for github repos
 
 ## Project Preview 📖 <!-- Usage screenshots -->
 
-![Project Preview](carbon.png)
+![Project Preview]()
 
 ---
 
 ## Features 🌟
 
-- Auto generate readmes
+- wallet
+- transection
  
 
 ---
 
 ## Built With 🔧
-![](https://img.shields.io/badge/Python-59DE79?style=for-the-badge&logo=Python&logoColor=fff) ![](https://img.shields.io/badge/Markdown-5D68B5?style=for-the-badge&logo=Markdown&logoColor=fff) 
+![](https://img.shields.io/badge/Python-975E73?style=for-the-badge&logo=python&logoColor=000) 
 
-<!-- GETTING STARTED -->
+<!-- Documentation  -->
 
 ---
 
@@ -188,7 +189,7 @@ Generate readme for github repos
 
 ### Dependencies ⧉
 
-- None
+- crypto
 
 
 ---
@@ -201,33 +202,30 @@ Generate readme for github repos
 2. To install from source:
 
 ```PowerShell
-gh repo clone charudatta10/readme-generator
+gh repo clone charudatta10/crypto functions list
 ```
  
 ---
 
 ## Documentation 🗎
 
-- python main.py
+- python chain.py
 
 
-![Screenshot](Screenshot.png)
+![Screenshot]()
 
 ---
 
 ## FAQ ?
 
-✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/readme-generator/issues)✨
+✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/crypto functions list/issues)✨
 
-> What to do if data for some feild is not there??    
-   leave blank.    
-   
-> How to end mutiline inputs??    
-   enter blank lines end multiline input.    
+> is project production ready??    
+   no.    
    
 
 
-<!-- CONTRIBUTING -->
+<!-- Community Guidelines [Author, Contributors, contributors guidelines, users, license ] -->
 
 ---
 
@@ -249,13 +247,14 @@ The author of this project is charudatta10.
 
 ### Contribution guidelines
 
-The contribution to this project should adhere to AGPL-3.0 and respect the copyright claims of charudatta10.
+The contribution to this project should adhere to MIT and respect the copyright claims of charudatta10.
 
 ---
 
 ## License 📜
 
 Copyright :copyright: 2024 ![logo](favicon05.svg):tm: @ charudatta10.   
-The project is licensed [AGPL-3.0](./LICENSE).
+The project is licensed [MIT](./LICENSE).
 
-[![Contact Me](https://img.shields.io/badge/Contact_Me-5D68B5?style=for-the-badge&logo=Contact&logoColor=fff)](https://charudatta10.github.io/linktree/)
+<!--- Contact form and portfolio links sponsorship links-->
+[Contact Me](https://charudatta10.github.io/linktree/)
