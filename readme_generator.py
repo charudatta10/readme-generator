@@ -1,32 +1,58 @@
 import json
 from jinja2 import Template
+from config_file_gen import ConfigGen
+from pathlib import Path
 
-class readme_gen:
+#from fire import Fire
+
+import os
+
+class ReadmeGen:
 
     def __init__(self) -> None:
-        pass
+        self.template_path = Path(f"C:/Users/{os.getlogin()}/Documents/GitHub/readme-generator/template.md")
         
-    def add_template(self, template_path):
-        with open(template_path, mode='r',encoding="utf-8") as template_file:
+    def add_template(self):
+        with open(self.template_path, mode='r',encoding="utf-8") as template_file:
             template_content = template_file.read()
         # Create a Jinja2 template
         self.template = Template(template_content)   
         
-    def add_config(self, config_path):
-        with open(config_path, "r") as f:
-            self.data = json.load(f)
+    def add_config(self):
+        config = ConfigGen()
+        config.get_data()
+        self.data = config.get_config()
 
     def gen_str(self):
         self.doc = self.template.render(**self.data)
 
-    def gen_file(self, readme_path):
-        with open(readme_path, "w+", encoding="utf-8") as f:
+    def gen_file(self):
+        with open("readme.md", "w+", encoding="utf-8") as f:
             f.write(self.doc)
 
-if __name__ == "__main__":
-    file = readme_gen()
-    file.add_template()
-    file.add_config()
-    file.gen_str()
-    file.gen_file()
+    def main(self):
+        self.add_template()
+        self.add_config()
+        self.gen_str()
+        self.gen_file()
+        self.ppt_gen()
 
+    def ppt_gen(self):
+        file_content = """---
+marp: true
+size: 16:9
+headingDivider:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 6
+theme: gaia
+---""" + self.doc
+
+        with open("readmex.md", 'w+',encoding="utf-8") as f:
+            f.write(file_content)
+
+if __name__ == "__main__":
+    readme = ReadmeGen()  
+    readme.main()

@@ -1,7 +1,7 @@
 import json
 import random
 
-class config_gen():
+class ConfigGen():
 
     def __init__(self) -> None:
         self.data = {}
@@ -70,14 +70,13 @@ class config_gen():
         self.data["img_preview"]=input("Project preview image path -> ")
         self.data["img_logo"]=input("Enter project logo path -> ")
 
-    def gen_file(self, file_name='config.json'):
-        with open(file_name,'w') as f:
-            json.dump(self.data,f,indent=4)
-
+    def get_config(self):
+        return self.data
+        
 if __name__ == "__main__":
     config = config_gen()
     config.get_data()
-    config.gen_file()
+    print(config.get_data())
 
 
 
