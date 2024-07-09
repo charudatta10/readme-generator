@@ -10,7 +10,7 @@ import os
 class ReadmeGen:
 
     def __init__(self) -> None:
-        self.template_path = Path(f"C:/Users/{os.getlogin()}/Documents/GitHub/readme-generator/template.md")
+        self.template_path = Path(f"C:/Users/{os.getlogin()}/Documents/GitHub/readme-generator/src/template.md")
         
     def add_template(self):
         with open(self.template_path, mode='r',encoding="utf-8") as template_file:
