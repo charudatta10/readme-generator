@@ -1,10 +1,6 @@
-import json
 from jinja2 import Template
 from config_file_gen import ConfigGen
 from pathlib import Path
-
-#from fire import Fire
-
 import os
 
 class ReadmeGen:

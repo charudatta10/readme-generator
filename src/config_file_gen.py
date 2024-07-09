@@ -1,4 +1,3 @@
-import json
 import random
 
 class ConfigGen():
@@ -74,7 +73,7 @@ class ConfigGen():
         return self.data
         
 if __name__ == "__main__":
-    config = config_gen()
+    config = ConfigGen()
     config.get_data()
     print(config.get_data())
 
