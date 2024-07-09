@@ -2,7 +2,7 @@
 <!-- PROJECT Banner -->
 ![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=readme-generator&width=1020&height=460)
 <!-- PROJECT TITLE - PROJECT LOGO -->
-# readme-generator ![Logo](OIG8-removebg-preview.png)
+# readme-generator ![Logo](docs/assets/img/OIG8-removebg-preview.png)
 
 <!-- PROJECT SHIELDS -->
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/readme-generator?include_prereleases)
@@ -20,7 +20,7 @@ Generate readme for github repos
 
 ## Project Preview 📖 <!-- Usage screenshots -->
 
-![Project Preview](carbon.png)
+![Project Preview](docs/assets/img/carbon.png)
 
 ## Features 🌟
 
@@ -52,7 +52,7 @@ gh repo clone charudatta10/readme-generator
  
 ## Documentation 🗎
 
-- python main.py
+- python src/readme_generator.py
 
 
 ![Screenshot](Screenshot.png)
@@ -77,7 +77,7 @@ The author of this project is charudatta10.
 
 ## Contributors 👪
 
-| ![](profile-picture.png) |
+| ![](docs/assets/img/profile-picture.png) |
 | :---: | 
 | charudatta10 |
 | [💻](#code-charudatta10)  [📖](#doc-charudatta10)  [🎨](#design-charudatta10)  [💡](#example-charudatta10)  [🤔](#ideas-charudatta10)|
@@ -89,7 +89,7 @@ The contribution to this project should adhere to AGPL-3.0 and respect the copyr
 
 ## License 📜
 
-Copyright :copyright: 2024 ![logo](favicon05.svg):tm: @ charudatta10.   
-The project is licensed [AGPL-3.0](./LICENSE).
+Copyright :copyright: 2024 ![logo](docs/assets/img/favicon05.svg):tm: @ charudatta10.   
+The project is licensed [AGPL-3.0](./license).
 
 [![Contact Me](https://img.shields.io/badge/Contact_Me-5D68B5?style=for-the-badge&logo=Contact&logoColor=fff)](https://charudatta10.github.io/linktree/)
