@@ -75,7 +75,7 @@ class ConfigGen():
 if __name__ == "__main__":
     config = ConfigGen()
     config.get_data()
-    print(config.get_data())
+    print(config.get_config())
 
 
 
