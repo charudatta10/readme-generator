@@ -24,11 +24,11 @@ default:
 init:
     #!pwsh
     git init
-    #New-Item -ItemType "file" -Path ".gitattribute", ".gitignore", "license", "main.py", "requirement.txt"
-    #New-Item -ItemType "directory" -Path "archive", "data", "src", "test"
-    #New-Item -ItemType "file" -Path .\* -Name "__init__.py"
-    #New-Item -ItemType "directory" -Path "docs/assets","docs/assets/css", "docs/assets/img", "docs/assets/js" -Force
-    #gig gen python > .gitignore 
+    New-Item -ItemType "file" -Path ".gitattribute", ".gitignore", "license", "main.py", "requirement.txt"
+    New-Item -ItemType "directory" -Path "archive", "data", "src", "test"
+    New-Item -ItemType "file" -Path .\* -Name "__init__.py"
+    New-Item -ItemType "directory" -Path "docs/assets","docs/assets/css", "docs/assets/img", "docs/assets/js" -Force
+    gig gen python > .gitignore 
     #licenseheaders -t lgpl-v3 -y 2024 -o "Charudatta" -n y -u y -f main.py
 
 config:
