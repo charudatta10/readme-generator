@@ -62,9 +62,9 @@ class ConfigGen():
         self.data["dependencies"]= self._lst2str(self._getlist("Enter project dependencies -> "))
         self.data["user"]= "charudatta10"
         self.data["contact_link"]= "https://charudatta10.github.io/linktree/"
-        self.data["license"]=input("Project is license -> ")
-        self.data["img_slogo"]="favicon05.svg"
-        self.data["img_profile"]="profile-picture.png"
+        self.data["license"]= "GPL-3.0"
+        self.data["img_slogo"]="https://raw.githubusercontent.com/charudatta10/myblog/main/assets/logo.ico"
+        self.data["img_profile"]="https://avatars.githubusercontent.com/u/10682378?s=400&u=29a709a9b0dc8fc53c34b23d3ce1557289b0bdaa&v=4"
         self.data["img_screenshot"]=input("Project usage screenshot path -> ")
         self.data["img_preview"]=input("Project preview image path -> ")
         self.data["img_logo"]=input("Enter project logo path -> ")

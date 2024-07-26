@@ -26,12 +26,13 @@ class ReadmeGen:
         with open("readme.md", "w+", encoding="utf-8") as f:
             f.write(self.doc)
 
-    def main(self):
+    def main(self, PPT_GEN = False):
         self.add_template()
         self.add_config()
         self.gen_str()
         self.gen_file()
-        self.ppt_gen()
+        if PPT_GEN:
+            self.ppt_gen()
 
     def ppt_gen(self):
         file_content = """---
