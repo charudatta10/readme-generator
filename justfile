@@ -25,7 +25,7 @@ init:
     #!pwsh
     git init
     New-Item -ItemType "file" -Path ".gitattribute", ".gitignore", "license", "main.py", "requirement.txt"
-    New-Item -ItemType "directory" -Path "archive", "data", "src", "test"
+    New-Item -ItemType "directory" -Path "archive", "src", "tests"
     New-Item -ItemType "file" -Path .\* -Name "__init__.py"
     New-Item -ItemType "directory" -Path "docs/assets","docs/assets/css", "docs/assets/img", "docs/assets/js" -Force
     gig gen python > .gitignore 
@@ -50,6 +50,14 @@ commit message="init":
 exe file_name:
     #!pwsh
     pyintsaller src/{{file_name}} -onefile
+
+tests:
+    #!pwsh
+    conda activate w
+    python -m unittest discover -s tests
+
+
+
 
 #alias b := build
 #build: 

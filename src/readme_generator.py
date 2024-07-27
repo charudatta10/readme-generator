@@ -1,5 +1,5 @@
 from jinja2 import Template
-from config_file_gen import ConfigGen
+from src.config_file_gen import ConfigGen
 from pathlib import Path
 
 
