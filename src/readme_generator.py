@@ -7,6 +7,7 @@ class ReadmeGen:
 
     def __init__(self) -> None:
         self.template_path = Path(__file__).parent / "template.md"
+        self.file_name = "README.md"
         
     def add_template(self):
         with open(self.template_path, mode='r',encoding="utf-8") as template_file:
@@ -23,7 +24,7 @@ class ReadmeGen:
         self.doc = self.template.render(self.data)
 
     def gen_file(self):
-        with open("README.md", "w+", encoding="utf-8") as f:
+        with open(self.file_name, "w+", encoding="utf-8") as f:
             f.write(self.doc)
 
     def main(self, PPT_GEN = False):

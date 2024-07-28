@@ -20,6 +20,7 @@ class TestReadmeGen(unittest.TestCase):
         self.assertTrue(hasattr(self.readme, 'doc'), "Documentation did not generated.")
 
     def test_gen_file(self):
+        self.file_name = "tests/test_README.md"
         self.readme.gen_file()
         self.assertTrue(Path("README.md").exists(), f"README did not generated.")
 
