@@ -23,7 +23,7 @@ class ReadmeGen:
         self.doc = self.template.render(self.data)
 
     def gen_file(self):
-        with open("readme.md", "w+", encoding="utf-8") as f:
+        with open("README.md", "w+", encoding="utf-8") as f:
             f.write(self.doc)
 
     def main(self, PPT_GEN = False):
