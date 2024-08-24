@@ -1,0 +1,7 @@
+{
+  "python": "3.12",
+  "jinja2": "latest",
+  "justfile": "latest",
+  "gig": "latest",
+  "powershell": "latest"
+}
