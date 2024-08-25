@@ -1,6 +1,5 @@
  
-<!-- PROJECT Banner -->
-![Hero Banner](docs/assets/images/hero.svg)
+# {{title}}
 
 <!-- Badges: Project Status GitHub -->
 ![license](https://badgen.net/static/license/GPL-3.0/blue)

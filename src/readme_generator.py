@@ -16,7 +16,9 @@ class ReadmeGen:
         self.template = Template(template_content)   
         
     def add_config(self):
-        self.data = ConfigGen()
+        config = ConfigGen()
+        config.get_data()
+        self.data =  config.data
 
     def gen_str(self):       
         self.doc = self.template.render(self.data)
