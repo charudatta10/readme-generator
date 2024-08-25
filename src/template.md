@@ -2,13 +2,13 @@
 <!-- PROJECT Banner -->
 ![Hero Banner](docs/assets/images/hero.svg)
 
-<!-- Badges: Project Status -->
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/{{user}}/{{title}}?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/{{user}}/{{title}})
-![licence](docs/assets/images/licence.svg)
+<!-- Badges: Project Status GitHub -->
+![license](https://badgen.net/static/license/GPL-3.0/blue)
+![release](https://badgen.net/github/release/charudatta10/{{title}})
+![commits](https://badgen.net/github/commits/charudatta10/{{title}})
+![last-commit](https://badgen.net/badge/github/last-commit/{{title}})
 <!-- Badges: Tools used -->
-<!-- Badges: Dependency -->
-<!-- Badges: Misc -->
+{{list_badges}}
 
 ## Documentation 🗎
 
