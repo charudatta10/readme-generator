@@ -1,18 +1,18 @@
  
 <!-- PROJECT Banner -->
-![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=readme-generator&width=1020&height=460)
+![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=&width=1020&height=460)
 <!-- PROJECT TITLE - PROJECT LOGO -->
-# readme-generator ![Logo](docs/assets/img/OIG8-removebg-preview.png)
+#  ![Logo]()
 
 <!-- PROJECT SHIELDS -->
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/readme-generator?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/readme-generator)
-![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/readme-generator)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/readme-generator)
-![GitHub](https://img.shields.io/github/license/charudatta10/readme-generator)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/?include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/)
+![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/)
+![GitHub](https://img.shields.io/github/license/charudatta10/)
 
 <!-- Project Description -->
-Generate readme for github repos  
+  
 
 <!-- SHARING ON SOCIAL MEDIA -->
 
@@ -20,23 +20,21 @@ Generate readme for github repos
 
 ## Project Preview 📖 <!-- Usage screenshots -->
 
-![Project Preview](docs/assets/img/carbon.png)
+![Project Preview]()
 
 ## Features 🌟
 
-- Auto generate readmes
  
 
 ## Built With 🔧
-![](https://img.shields.io/badge/Python-59DE79?style=for-the-badge&logo=Python&logoColor=fff) ![](https://img.shields.io/badge/Markdown-5D68B5?style=for-the-badge&logo=Markdown&logoColor=fff) 
 
-<!-- GETTING STARTED -->
+
+<!-- Documentation  -->
 
 ## Getting Started 🌱
 
 ### Dependencies ⧉
 
-- None
 
 
 ### Installation ■■■■■■■■■■
@@ -47,29 +45,22 @@ Generate readme for github repos
 2. To install from source:
 
 ```PowerShell
-gh repo clone charudatta10/readme-generator
+gh repo clone charudatta10/
 ```
  
 ## Documentation 🗎
 
-- python src/readme_generator.py
 
 
-![Screenshot](Screenshot.png)
+![Screenshot]()
 
 ## FAQ ?
 
-✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/readme-generator/issues)✨
-
-> What to do if data for some feild is not there??    
-   leave blank.    
-   
-> How to end mutiline inputs??    
-   enter blank lines end multiline input.    
-   
+✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10//issues)✨
 
 
-<!-- CONTRIBUTING -->
+
+<!-- Community Guidelines [Author, Contributors, contributors guidelines, users, license ] -->
 
 ## Authors 👱
 
@@ -77,7 +68,7 @@ The author of this project is charudatta10.
 
 ## Contributors 👪
 
-| ![](docs/assets/img/profile-picture.png) |
+| ![](https://avatars.githubusercontent.com/u/10682378?s=400&u=29a709a9b0dc8fc53c34b23d3ce1557289b0bdaa&v=4) |
 | :---: | 
 | charudatta10 |
 | [💻](#code-charudatta10)  [📖](#doc-charudatta10)  [🎨](#design-charudatta10)  [💡](#example-charudatta10)  [🤔](#ideas-charudatta10)|
@@ -85,11 +76,12 @@ The author of this project is charudatta10.
 
 ### Contribution guidelines
 
-The contribution to this project should adhere to AGPL-3.0 and respect the copyright claims of charudatta10.
+The contribution to this project should adhere to GPL-3.0 and respect the copyright claims of charudatta10.
 
 ## License 📜
 
-Copyright :copyright: 2024 ![logo](docs/assets/img/favicon05.svg):tm: @ charudatta10.   
-The project is licensed [AGPL-3.0](./license).
+Copyright :copyright: 2024 ![logo](https://raw.githubusercontent.com/charudatta10/myblog/main/assets/logo.ico):tm: @ charudatta10.   
+The project is licensed [GPL-3.0](./LICENSE).
 
-[![Contact Me](https://img.shields.io/badge/Contact_Me-5D68B5?style=for-the-badge&logo=Contact&logoColor=fff)](https://charudatta10.github.io/linktree/)
+<!--- Contact form and portfolio links sponsorship links-->
+[Contact Me](https://charudatta10.github.io/linktree/)

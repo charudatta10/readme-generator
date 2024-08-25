@@ -16,9 +16,7 @@ class ReadmeGen:
         self.template = Template(template_content)   
         
     def add_config(self):
-        config = ConfigGen()
-        config.get_data()
-        self.data = config.get_config()
+        self.data = ConfigGen()
 
     def gen_str(self):       
         self.doc = self.template.render(self.data)
@@ -38,13 +36,7 @@ class ReadmeGen:
     def ppt_gen(self):
         file_content = """---
 marp: true
-size: 16:9
-headingDivider:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 6
+headingDivider: 6
 theme: gaia
 ---""" + self.doc
 

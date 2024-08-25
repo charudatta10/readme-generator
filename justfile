@@ -63,10 +63,14 @@ exe file_name:
 # run python unit test 
 tests:
     #!pwsh
+    conda activate webdev
     python -m unittest discover -s tests
 
 # Add custom tasks, enviroment variables
-
+run: 
+    #!pwsh
+    conda activate webdev
+    python main.py
 
 
 
