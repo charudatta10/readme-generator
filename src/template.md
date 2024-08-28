@@ -19,8 +19,10 @@
 
 ## Getting Started 🌱
 
-`just`
+Run `just` cmd in command prompt.
 
 ✨[Report a 🐛 or Request a ⭐](https://github.com/{{user}}/{{title}}/issues)✨
 
 Copyright :copyright: 2024 ![logo](docs/assets/images/icon.svg):tm: @ charudatta10.   
+
+<!-- Acknowledgment, References, Misc -->
