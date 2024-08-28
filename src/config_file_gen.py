@@ -16,11 +16,11 @@ class ConfigGen():
         return lines
     
     def _labelGen(self, input_prompt):
-        list_labels = []
+        list_labels = ""
         while True:
             line = input(f"{input_prompt}")
             if line:
-                list_labels.append(f"`{line}` ")
+                list_labels +=  f"`{line}` "
             else:
                 break
         return list_labels
