@@ -14,11 +14,10 @@
 
 The project genrates readme for github repo.  
 
-### Features 🌟
+## Features 🌟
 
 - add badges to readme. 
 - add feature list. 
- 
 
 ## Getting Started 🌱
 
