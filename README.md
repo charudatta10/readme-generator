@@ -28,7 +28,7 @@ The project genrates readme for github repo.
 
 Run `just` cmd in command prompt.
 
-![output](output.png)
+![output](opt.png)
 
 ✨[Report a 🐛 or Request a ⭐](https://github.com//readme-generator/issues)✨
 
